@@ -1,0 +1,8 @@
+{
+	"name": "rwm-p0-c00300324",
+  "version": "0.2.2",					
+  "type": "module",
+  "exports": {
+    ".": "./Sprint 1/src/lib/moduloFirst.ts"	
+  }
+}
