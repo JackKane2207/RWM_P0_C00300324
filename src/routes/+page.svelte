@@ -1,10 +1,10 @@
 <script lang="ts">
-    import { cubes } from '$lib/filters';
+    import { moduloLoop } from '$lib/filters';
     let raw = $state('1 3 5 7 9 999');
     let input = $derived(
         raw.trim().split(/\s+/).filter(Boolean).map(Number)
     );
-    let output = $derived(cubes(input));
+    let output = $derived(moduloLoop(input));
 </script>
 
 
